@@ -18,7 +18,6 @@ Ziel ist es, die <b>Symptome</b> täglich zu verfolgen und Muster zwischen Ernä
 1. **Symptom Tracker:**
 - Tägliche Eingabemöglichkeit für Symptome im Kalenderformat
 - Bewertung von Nahrungsmitteln in Bezug auf Symptome
-- Anzeige der Tage im Kalender mit Farben, die auf den Symptomen des Benutzers basieren
 - Möglichkeit, Muster zwischen Ernährung und Symptomen zu erkennen
 
 2. **Datenbank:**
@@ -41,11 +40,8 @@ Ziel ist es, die <b>Symptome</b> täglich zu verfolgen und Muster zwischen Ernä
 
 ### 2.3 Not Haves
 
-1. **Keine offline Funktionalität:**
-- Die App erfordert eine Internetverbindung für den vollen Funktionsumfang
-
-2. **Keine medizinischen Diagnosen:**
-- Die App ersetzt nicht die professionelle medizinische Beratung, und Benutzer sollten bei Bedarf medizinischen Rat einholen
+- Keine offline Funktionalität
+- Keine medizinischen Diagnosen
 
 ## 3. Technologien
 
@@ -58,15 +54,14 @@ Ziel ist es, die <b>Symptome</b> täglich zu verfolgen und Muster zwischen Ernä
 - Node.js
 - Express.js
 
+**Datenvisualisierung:**
+- D3.js
+  
 **Datenbank:**
 - MongoDB
 
-**Datenvisualisierung**
-- D3.js
-
 **Sicherheit:**
 - bcrypt
-- uuid
 - dotenv
 
 **Authentication:**
