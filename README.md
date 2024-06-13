@@ -32,16 +32,14 @@ Ziel ist es, die <b>Symptome</b> täglich zu verfolgen und Muster zwischen Ernä
 
 ### 2.2 Nice to Haves
 
-1. **Experten Chat:**
+1. **Visualisierung:**
+- Analyse in Form eines Diagramms (dynamisch)
+
+2. **Experten Chat:**
 - Direkte Kommunikation zwischen Nutzern und Experten (Sponsors)
 
-2. **Berichte Herunterladen:**
+3. **Berichte Herunterladen:**
 - Möglichkeit, die Tagesberichte in einer Datei herunterzuladen
-
-### 2.3 Not Haves
-
-- Keine offline Funktionalität
-- Keine medizinischen Diagnosen
 
 ## 3. Technologien
 
@@ -53,21 +51,12 @@ Ziel ist es, die <b>Symptome</b> täglich zu verfolgen und Muster zwischen Ernä
 **Backend:**
 - Node.js
 - Express.js
-
-**Datenvisualisierung:**
-- D3.js
   
 **Datenbank:**
 - MongoDB
 
-**Sicherheit:**
-- bcrypt
-- dotenv
-
-**Authentication:**
-- cookie-session
-- nodemailer
-- OAuth 2.0
+**Datenvisualisierung:**
+- D3.js
 
 ## 4. Screenshots
 ![Screenshots](documentation/assets/screenshots.png)
